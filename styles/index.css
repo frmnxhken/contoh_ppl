@@ -31,3 +31,24 @@ nav .navbar-links a {
     text-decoration: none;
     color: var(--black-color);
 }
+
+.hero .hero-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.hero .hero-container h1 {
+    font-size: var(--title-size);
+}
+
+.hero .hero-container div {
+    margin-top: 40px;
+}
+
+.hero .hero-container p {
+    font-size: var(--body-size);
+}
