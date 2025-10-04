@@ -1,0 +1,15 @@
+:root {
+    --black-color: "#000000";
+    --gray-color: "#737373";
+    --accent-color: "#D4D4D4";
+    --title-size: 96px;
+    --heading-size: 64px;
+    --medium-size: 48px;
+    --body-size: 20px;
+    --small-size: 16px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
